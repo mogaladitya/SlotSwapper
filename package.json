@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+  "start:backend": "cd Backend && npm start",
+  "start:frontend": "cd Frontend && npm start",
+  "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+}
+
+}

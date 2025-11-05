@@ -1,0 +1,63 @@
+
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+node_modules/
+dist/
+build/
+coverage/
+# Local database / uploads
+uploads/
+tmp/
+*.pid
+
+# Ignore dotenvx backup files
+.env*.backup
+
+# Ignore any generated dump files
+*.gz
+*.zip
+
+
+client/node_modules/
+client/build/
+client/dist/
+client/.env.local
+client/.env.development.local
+client/.env.production.local
+
+# Ignore lock files (optional, depends on your workflow)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+
+docker-compose.override.yml
+*.dockerfile
+.dockerignore
+
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+*.code-workspace
+
+
+ehthumbs.db
+Icon?
+Desktop.ini
+
+
+*.orig
