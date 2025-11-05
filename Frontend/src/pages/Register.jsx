@@ -31,7 +31,7 @@ export default function Register() {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/api/v1/auth/register", {
+      const res = await axios.post("https://slotswapper-1-y3k3.onrender.com/api/v1/auth/register", {
         fullName: form.fullName,
         email: form.email,
         password: form.password,
