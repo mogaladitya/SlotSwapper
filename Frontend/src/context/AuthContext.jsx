@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
 
   // Setup Axios instance
   const api = axios.create({
-    baseURL: "https://slotswapper-1-y3k3.onrender.com/api/v1",
+    baseURL: "http://localhost:5000/api/v1",
     headers: { Authorization: token ? `Bearer ${token}` : "" },
   });
 
