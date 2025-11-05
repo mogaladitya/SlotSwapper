@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
 
   // Setup Axios instance
   const api = axios.create({
-    baseURL: "http://localhost:5000/api/v1",
+    baseURL: "https://slotswapper-1-y3k3.onrender.com/api/v1",
     headers: { Authorization: token ? `Bearer ${token}` : "" },
   });
 
@@ -44,7 +44,7 @@ export const AuthProvider = ({ children }) => {
   // Login function
   const login = async (email, password) => {
     try {
-      const res = await axios.post("http://localhost:5000/api/v1/auth/login", {
+      const res = await axios.post("https://slotswapper-1-y3k3.onrender.com/api/v1/auth/login", {
         email,
         password,
       });
@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }) => {
   // Register function
   const register = async (fullName, email, password) => {
     try {
-      const res = await axios.post("http://localhost:5000/api/v1/auth/register", {
+      const res = await axios.post("https://slotswapper-1-y3k3.onrender.com/api/v1/auth/register", {
         fullName,
         email,
         password,
