@@ -211,13 +211,5 @@ JWT_SECRET=mysecretkey123
 5. Output Directory → `dist` (or `build`)
 6. Update backend API URL to your Render link in `AuthContext.jsx`
 
----
 
-## 🧩 Bonus Features (Optional)
-
-* ✅ Real-time notifications with Socket.IO
-* ✅ Dockerfile & docker-compose setup
-* ✅ Unit tests for swap logic
-
----
 
